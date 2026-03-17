@@ -6,7 +6,7 @@ const PricingCard = ({ pricing }) => {
 
   console.log(pricing);
   return (
-    <div className="border bg-amber-600 rounded-2xl p-4">
+    <div className="border flex flex-col bg-amber-600 rounded-2xl p-4 mt-10 flex-1">
       {/* card header */}
       <div>
         <h1 className="text-7xl">{name}</h1>
@@ -23,6 +23,7 @@ const PricingCard = ({ pricing }) => {
         }
         
       </div>
+      <button className="btn w-full mt-4">Subscribe</button>
     </div>
   );
 };
