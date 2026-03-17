@@ -3,6 +3,7 @@ import "./App.css";
 import DaisyNav from "./Components/DaisyNav/DaisyNav";
 import Navbar from "./Components/Navbar/Navbar";
 import PricingOption from "./Components/PricingOption/PricingOption";
+import ResultChart from "./Components/ResultsChart/ResultChart";
 
 const pricingPromise = fetch("pricingData.json").then((res) => res.json());
 
@@ -21,7 +22,10 @@ function App() {
           }
         >
           <PricingOption pricingPromise={pricingPromise}></PricingOption>
+          
         </Suspense>
+
+        <ResultChart></ResultChart>
       </main>
     </>
   );
