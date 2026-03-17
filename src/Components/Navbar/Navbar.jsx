@@ -37,7 +37,7 @@ const links = navigationData.map((route) => (
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex justify-between mx-10">
+    <nav className="flex justify-between mx-10 mt-4">
       {/* <ul className='flex'>
         <li className='mr-10'><a href="/">Home</a></li>
         <li className='mr-10'><a href="/about">About</a></li>
@@ -57,7 +57,7 @@ const Navbar = () => {
           <Menu className="md:hidden"></Menu>
         )}
         {/* <Menu className="md:hidden"></Menu> */}
-        <ul className="md:hidden">
+        <ul className={`md:hidden duration-1000 absolute ${open ? 'top-8': '-top-40'}   `}>
             {links}
         </ul>
         <h3 className="ml-4">My Navbar</h3>
