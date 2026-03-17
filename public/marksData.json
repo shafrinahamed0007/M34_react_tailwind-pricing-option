@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Abir Hasan",
+    "marks": {
+      "math": 85,
+      "english": 78,
+      "science": 92
+    }
+  },
+  {
+    "id": 2,
+    "name": "Sultana Razia",
+    "marks": {
+      "math": 92,
+      "english": 88,
+      "science": 85
+    }
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Ahmed",
+    "marks": {
+      "math": 74,
+      "english": 82,
+      "science": 79
+    }
+  },
+  {
+    "id": 4,
+    "name": "Nusrat Jahan",
+    "marks": {
+      "math": 95,
+      "english": 91,
+      "science": 98
+    }
+  },
+  {
+    "id": 5,
+    "name": "Arifur Rahman",
+    "marks": {
+      "math": 68,
+      "english": 70,
+      "science": 65
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mim Akter",
+    "marks": {
+      "math": 81,
+      "english": 85,
+      "science": 88
+    }
+  },
+  {
+    "id": 7,
+    "name": "Rakib Hossain",
+    "marks": {
+      "math": 77,
+      "english": 72,
+      "science": 75
+    }
+  },
+  {
+    "id": 8,
+    "name": "Samiul Islam",
+    "marks": {
+      "math": 89,
+      "english": 84,
+      "science": 90
+    }
+  },
+  {
+    "id": 9,
+    "name": "Farhana Khan",
+    "marks": {
+      "math": 90,
+      "english": 93,
+      "science": 92
+    }
+  },
+  {
+    "id": 10,
+    "name": "Zubayer Al-Mahmud",
+    "marks": {
+      "math": 62,
+      "english": 65,
+      "science": 70
+    }
+  }
+]
